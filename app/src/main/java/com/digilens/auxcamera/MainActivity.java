@@ -89,7 +89,7 @@ public class MainActivity extends Activity {
         this.getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
         setContentView(R.layout.activity_main);
         digios = new DigiOS_SDK();
-        digios.allowAuxCameraAccess(getApplicationContext(), DigiOS_SDK.ARGO_AUX_CAMERA_BOTH_ALLOW_ACCESS, "com.digilens.stereotrackigcamerasample");
+        digios.allowAuxCameraAccess(getApplicationContext(), DigiOS_SDK.ARGO_AUX_CAMERA_BOTH_ALLOW_ACCESS, "com.digilens.auxcamera");
 
         leftFishEye = findViewById(R.id.leftAuxCamera);
         assert leftFishEye != null;
