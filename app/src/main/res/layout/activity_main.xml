@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextureView
+        android:id="@+id/leftAuxCamera"
+        android:layout_width="640px"
+        android:layout_height="640px"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:visibility="visible" />
+
+    <TextureView
+        android:id="@+id/rightAuxCamera"
+        android:layout_width="640px"
+        android:layout_height="640px"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:visibility="visible" />
+
+    <Button
+        android:id="@+id/leftAuxCameraEnable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/enable_left_aux_camera"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:scrollbars="vertical"
+        tools:ignore="VisualLintOverlap" />
+
+    <Button
+        android:id="@+id/bothAuxCameraEnable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/enable_both_aux_camera"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:scrollbars="vertical"
+        tools:ignore="VisualLintOverlap" />
+
+    <Button
+        android:id="@+id/rightAuxCameraEnable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/enable_right_aux_camera"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:scrollbars="vertical"
+        tools:ignore="RelativeOverlap" />
+</RelativeLayout>

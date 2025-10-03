@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">AuxCamera</string>
+    <string name="enable_left_aux_camera">Enable Left Aux Camera</string>
+    <string name="enable_both_aux_camera">Enable Both Aux Camera</string>
+    <string name="enable_right_aux_camera">Enable Right Aux Camera</string>
+    <string name="disable_left_aux_camera">Disable Left Aux Camera </string>
+    <string name="disable_right_aux_camera">Disable Right Aux Camera </string>
+    <string name="disable_both_aux_camera">Disable Both Aux Camera </string>
+</resources>
