@@ -26,3 +26,7 @@ Notes:
 2.	API must be called before requesting Camera List from Camera Service
 3.	ARGO can stream only 2 camera feeds using ISP post processing.
 4.	All three cameras can be streamed provided one/two cameras are working in RDI mode.
+
+Sample code output
+
+<img src="docs/auxcamera.sample.output.jpg" alt="Application Screenshot" width="400" height="250">
